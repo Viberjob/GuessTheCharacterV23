@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/disneycastle"
+    tools:context=".MainActivity"
+    >
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/brushbarbie"
+        android:gravity="center"
+        android:text="Guess The Character"
+        android:textColor="#FFEB3B"
+        android:textSize="50dp" />
+
+    <ImageView
+        android:id="@+id/startscreenimage"
+        android:layout_width="500dp"
+        android:layout_height="338dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="110dp"
+        android:paddingRight="50dp"
+        app:srcCompat="@drawable/startscreenimage"
+
+        />
+
+    <Button
+        android:id="@+id/MainButton"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="CLICK TO START"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/brushbarbie"
+        />
+
+
+
+
+
+
+</LinearLayout>
